@@ -4,6 +4,7 @@ body {
           Times, serif;
     color: darksalmon;
     background-color: rgb(39, 39, 84) }
+
   ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -12,21 +13,102 @@ body {
     top: 2em;
     left: 1em;
     width: 9em }
+
   h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
+
   ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid darksalmon }
+    border-right: 1em solid darksalmon;
+    border-radius: 10px;
+  }
+
   ul.navbar a {
     text-decoration: none }
+
   a:link {
     color: blue }
+
   a:visited {
     color: darkblue }
+
   address {
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted }
+
+
+  #txt{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }
+
+  #section1{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }
+
+  #section2{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }
+
+  #section3{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }
+
+  #contact1{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }
+
+
+  #sectionExp{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }  
+
+  #sectionSAE1{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }  
+
+  #sectionSAE2{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }  
+
+  #sectionSAE3{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }
+
+  #sectionSAE4{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }  
+
+  #sectionSAE5{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }  
+
+  #sectionSAE6{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }  
+
+  #sectionCard{
+    text-shadow: 2px 5px 5px #081723;
+    border: 2px solid #242E35;
+  }
+
+  #codeFirst{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
