@@ -1,9 +1,14 @@
   body {
       font-family: Georgia, 'Georgia', "Times New Roman", Times, serif;
-      color: white;
-      background-color: black;
+      color: #F8F8FF ;
+      background-color: #696969 ;
       display: flex;
       flex-direction: column;
+  }
+
+  div {
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   ul.navbar {
@@ -20,15 +25,18 @@
 
   h1 {
       font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
-      color: white;
+      color: #F08080;
   }
 
   ul.navbar li {
       display: inline-block;
       margin: 0.5em;
       padding: 0.3em;
-      border: 1px solid white;
+      border: 1px solid #F08080;
       border-radius: 10px;
+      background: black;
+      color: white;
+      box-shadow: 2px 5px 5px black;
   }
 
   ul.navbar a {
@@ -41,7 +49,7 @@
   }
 
   a:visited {
-      color: white;
+      color: #CD5C5C;
   }
 
   address {
@@ -55,76 +63,88 @@
       padding: 10px;
       background: black;
       color: white;
-      border: 2px solid white;
+      border: 2px solid #F08080;
       border-radius: 10px;
       box-shadow: 2px 5px 5px black;
       margin-top: 75px;
   }
 
+  footer {
+      margin: 10px;
+      padding: 10px;
+      background: black;
+      color: white;
+      border: 2px solid #F08080;
+      border-radius: 10px;
+      box-shadow: 2px 5px 5px black;
+      margin-top: 5px;
+
+  }
+
   #txt{
     text-shadow: 2px 5px 5px black;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }
 
   #section1{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080;
   }
 
   #section2{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }
 
   #section3{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }
 
   #contact1{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }
 
 
   #sectionExp{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }  
 
   #sectionSAE1{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }  
 
   #sectionSAE2{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }  
 
   #sectionSAE3{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }
 
   #sectionSAE4{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }  
 
   #sectionSAE5{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }  
 
   #sectionSAE6{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }  
 
   #sectionCard{
     text-shadow: 2px 5px 5px #081723;
-    border: 2px solid white;
+    border: 2px solid #F08080 ;
   }
 
   #codeFirst{
