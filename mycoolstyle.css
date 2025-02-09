@@ -28,6 +28,14 @@
       color: #F08080;
   }
 
+  h2 {
+      font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+      color: #CD5C5C ;
+      text-decoration: underline;
+  }
+
+
+
   ul.navbar li {
       display: inline-block;
       margin: 0.5em;
@@ -58,7 +66,7 @@
       border-top: thin dotted white;
   }
 
-  section {
+  .firstSection {
       margin: 10px;
       padding: 10px;
       background: black;
@@ -67,6 +75,17 @@
       border-radius: 10px;
       box-shadow: 2px 5px 5px black;
       margin-top: 75px;
+  }
+
+  section {
+      margin: 10px;
+      padding: 10px;
+      background: black;
+      color: white;
+      border: 2px solid #F08080;
+      border-radius: 10px;
+      box-shadow: 2px 5px 5px black;
+      margin-top: 10px;
   }
 
   footer {
