@@ -172,6 +172,19 @@
     border-radius: 10px;
   }
 
+  #drapeau-france{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
+
+  #drapeau-angleterre{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
+
+
   .imageDisplay{
     height: 100px;
     width: 100px;
