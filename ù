@@ -42,7 +42,6 @@
         </p>
         <p>
           July 2012 Family harvest in Ris, Puy de dôme, Auvergne.
-        </p>
         <a href= "images/FR-63-Ris.jpg">
         <img class="imageDisplay" src="images/FR-63-Ris.jpg" title="Ris" alt="Image de la place principale">
         </a>
@@ -225,9 +224,7 @@
           I have three differents version of this card game and one right one in work.
           This card game have 8 factions right one and each have a unique theme, history, politicals system and in the game an unique style of gameplay and main characters when you play.
         </p>
-        <a href= "images/card.jpg">
-          <img class="imageDisplay" src="images/card.jpg" title="Cartes" alt="Image de cartes">
-        </a>
+        <img class="imageDisplay" src="images/card.jpg" title="Cards" alt="A picture of cards">
         <h3>Results:</h3>
         <p>
           Personal profits and creativity.

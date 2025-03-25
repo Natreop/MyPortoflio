@@ -33,8 +33,7 @@
       color: #CD5C5C ;
       text-decoration: underline;
   }
-
-
+ 
 
   ul.navbar li {
       display: inline-block;
@@ -100,68 +99,68 @@
 
   }
 
-  #txt{
+  .txt{
     text-shadow: 2px 5px 5px black;
     border: 2px solid #F08080 ;
   }
 
-  #section1{
+  .section1{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080;
   }
 
-  #section2{
+  .section2{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }
 
-  #section3{
+  .section3{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }
 
-  #contact1{
+  .contact1{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }
 
 
-  #sectionExp{
+  .sectionExp{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }  
 
-  #sectionSAE1{
+  .sectionSAE1{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }  
 
-  #sectionSAE2{
+  .sectionSAE2{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }  
 
-  #sectionSAE3{
+  .sectionSAE3{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }
 
-  #sectionSAE4{
+  .sectionSAE4{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }  
 
-  #sectionSAE5{
+  .sectionSAE5{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }  
 
-  #sectionSAE6{
+  .sectionSAE6{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }  
 
-  #sectionCard{
+  .sectionCard{
     text-shadow: 2px 5px 5px #081723;
     border: 2px solid #F08080 ;
   }
@@ -172,13 +171,19 @@
     border-radius: 10px;
   }
 
-  #drapeau-france{
+  #codeFirstFrench{
     height: 20px;
     width: 20px;
     border-radius: 10px;
   }
 
-  #drapeau-angleterre{
+  .drapeau-france{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
+
+  .drapeau-angleterre{
     height: 20px;
     width: 20px;
     border-radius: 10px;
@@ -189,6 +194,12 @@
     height: 100px;
     width: 100px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  } 
+
+  .imageDisplay:hover {
+      transform: scale(1.1);
   }
 
   .jaugeDisplay{
