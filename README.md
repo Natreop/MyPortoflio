@@ -39,4 +39,3 @@ The project i have done in my study and in my free time.
 A list of links to my socials medias and a link to download my CV.
 
 THE END OF THE README.
-
