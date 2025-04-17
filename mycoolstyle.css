@@ -1,9 +1,12 @@
   body {
-      font-family: Georgia, 'Georgia', "Times New Roman", Times, serif;
+      font-family: Helvetica, Arial, sans-serif;
       color: #DADFF7 ;
-      background-color: #5A7D7C ;
+      background-image: url('images/bakground.jpg');
+      background-size: cover;
+      background-attachment: fixed;
       display: flex;
       flex-direction: column;
+      font-style: Helvetica;
   }
 
   div {
@@ -83,7 +86,6 @@
       color: white;
       border: 2px solid #4A5E6D;
       border-radius: 10px;
-      box-shadow: 2px 5px 5px black;
       margin-top: 10px;
   }
 
@@ -108,65 +110,15 @@
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
   }
 
-  .section2{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
+  .section{
+      background-color: #232C3388;
+      backdrop-filter: blur(20px);
+      padding: 25px;
+      border: 2px solid #4A5E6D;
   }
 
-  .section3{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }
-
-  .contact1{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }
-
-
-  .sectionExp{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }  
-
-  .sectionSAE1{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }  
-
-  .sectionSAE2{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }  
-
-  .sectionSAE3{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }
-
-  .sectionSAE4{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }  
-
-  .sectionSAE5{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }  
-
-  .sectionSAE6{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }  
-
-  .sectionCard{
-    text-shadow: 2px 5px 5px #081723;
-    border: 2px solid #4A5E6D;
-  }
 
   #codeFirst{
     height: 20px;
@@ -214,7 +166,7 @@
     transition: transform 0.3s;
   } 
 
-  #imageIcone:hover {
+  .imageIcone:hover {
       transform: scale(1.1);
   }
 
